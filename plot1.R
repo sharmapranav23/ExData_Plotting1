@@ -11,6 +11,7 @@ plot1 <- function(){
     ##start the plotting now
     png(file="plot1.png",width = 480, height = 480,units = "px",bg="white")
     hist(subdata$Global_active_power,xlab = "Global Active Power (kilowatts)",main="Global Active Power",col="red")
+    ##close the device
     dev.off()
     
 }
